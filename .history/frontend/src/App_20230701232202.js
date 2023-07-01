@@ -1,5 +1,5 @@
 import data from "./data";
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HomeScreen from "./screens/HomeScreen";
 import ProductScreen from "./screens/ProductScreen";
 
@@ -8,7 +8,7 @@ function App () {
     <BrowserRouter>
       <div >
         <header>
-          <Link to="/">Umeshop</Link>
+          <a href="/">Umeshop</a>
         </header>
         <main>
           <Routes>
